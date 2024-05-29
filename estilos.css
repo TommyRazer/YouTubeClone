@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	background-color: #0f0f0f;
+}
+
+.menu {
+	display: inline;
+	flex-direction: row;
+	position: absolute;
+	left: 92%;
+	top: 3%;
+}
+
+.title-description {
+	position: absolute;
+	top: 750px;
+	left: 75px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.subcribirse-buton {
+	position: absolute;
+	left: 240px;
+	top: 49px;
+	background-color: white;
+	border-radius: 30px;
+	color: black;
+	width: 95px;
+	height: 25px;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.subcribirse-buton:hover {
+	background-color: #fff8f8ce;
+	cursor: pointer;
+}
+
+.description {
+	position: absolute;
+	left: -750px;
+	top: 60px;
+	background-color: #414040;
+	width: 1290px;
+	height: 120px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	font-size: 10px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding-left: 10px;
+
+}
+
+.show-all {
+	position: relative;
+	top: -30px;
+	left: 330px;
+	font-size: 15px;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	cursor: pointer;
+}
+
+/* Like Compartir Descargar Etc */
+#fondo-like {
+	position: absolute;
+	left: 750px;
+	top: 54px;
+	background-color: #333333;
+	border-radius: 50px;
+	width: 100px;
+	height: 40px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.like-btn:hover {
+
+	cursor: pointer;
+}
+
+#cant-likes {
+	position: absolute;
+	top: -25px;
+	left: 45px;
+	font-size: 16px;
+}
+
+.like-btn {
+	width: 69px;
+	height: auto;
+	position: absolute;
+	top: -15px;
+	left: -10px;
+}
+
+/* Barra lat siguientes videos */
+/* Propiedades Card1 */
+.card-1 {
+	position: absolute;
+	left: 1399px;
+	top: 150px;
+	width: 350px;
+	height: auto;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+
+}
+
+.card-title1 {
+	position: absolute;
+	top: -18px;
+	left: 209px;
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.card-text1 {
+	color: grey;
+	position: absolute;
+	top: 35px;
+	left: 210px;
+	font-size: 10px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal
+}
+
+.card-text-small {
+	position: absolute;
+	top: 49px;
+	left: 210px;
+	color: grey;
+	font-size: 12px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal
+}
+
+/* -CIERRE- */
+.card-2 {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	left: 1399px;
+	top: 600px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.card-3 {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	left: 1399px;
+	top: 350px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Cierre */
+/* Tamaño de las imagenes del card */
+.caratulas-vids {
+	width: 199px;
+	height: auto;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+/* Cierre */
+
+
+/* Imagen de perfil, nombre del canal, cantidad de subs */
+.titulo {
+	position: absolute;
+	top: 200px;
+	left: auto;
+	color: white;
+}
+
+.chanel {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: medium;
+	position: absolute;
+	left: 60px;
+	top: 30px;
+}
+
+#subs {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: medium;
+	position: absolute;
+	left: 60px;
+	top: 50px;
+}
+
+.perfil-icon {
+	width: 50px;
+	height: auto;
+	border-radius: 50px;
+	position: absolute;
+	top: 59px;
+	left: auto;
+}
+
+/* ------------------------------ */
+.slide-icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+}
+
+.slide-icon:hover {
+	background-color: rgba(128, 128, 128, 0.442);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.slide-icon-out {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: -220px;
+}
+
+
+.upload-icon {
+	width: 100rem;
+	height: auto;
+}
+
+.mic {
+	width: auto;
+	height: 45px;
+	position: absolute;
+	left: 1320px;
+	top: 15px;
+}
+
+.campain-icon {
+	width: 45px;
+	height: auto;
+	position: absolute;
+	top: -12px;
+	left: -1px;
+}
+
+.campain-icon:hover {
+	background-color: rgba(128, 128, 128, 0.11);
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+
+.yt-premium-logo {
+	position: absolute;
+	top: -25px;
+	left: 90px;
+}
+
+.yt-premium-logo-out {
+	width: 150px;
+	height: auto;
+	position: absolute;
+	top: -39px;
+	left: -166px;
+}
+
+.upload-icon {
+	width: 30px;
+	height: auto;
+	position: absolute;
+	left: -55px;
+	top: -4px;
+
+	.lupa {
+		position: relative;
+		top: 500px;
+		left: 1000px;
+		width: 1000px;
+		height: auto;
+	}
+}
+
+.upload-icon:hover {
+	background-color: rgba(128, 128, 128, 0.442);
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+
+}
+
+.perfil {
+	width: 40px;
+	height: auto;
+	position: absolute;
+	top: -10px;
+	left: 71px;
+
+}
+
+.yt-premium-logo {
+	height: 115px;
+	width: auto;
+	margin-top: 5px;
+}
+
+.search-bar {
+	width: 750px;
+	height: 50px;
+	border-radius: 30px;
+	position: absolute;
+	top: 10px;
+	left: 550px;
+	background-color: transparent;
+	border: solid grey;
+	color: white;
+	font-size: medium;
+	padding-left: 10px;
+
+}
+
+.separar {
+	border-color: #414040;
+	position: relative;
+	top: 5px;
+}
+
+.lupita {
+	width: 24px;
+	height: auto;
+}
+
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu {
+	display: none;
+}
+
+.container-menu {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#btn-menu:checked~.container-menu {
+	opacity: 1;
+	visibility: visible;
+}
+
+.cont-menu {
+	width: 100%;
+	max-width: 250px;
+	background: #0f0f0f;
+	opacity: 100%;
+	height: 100vh;
+	position: relative;
+	transition: all 500ms ease;
+	transform: translateX(-100%);
+}
+
+#btn-menu:checked~.container-menu .cont-menu {
+	transform: translateX(0%);
+}
+
+.cont-menu nav {
+	transform: translateY(15%);
+}
+
+.cont-menu nav a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: #c7c7c7;
+	border-left: 5px solid transparent;
+	transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover {
+	border-left: 5px solid #c7c7c7;
+	background: #333333;
+}
+
+.cont-menu label {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+
+
+
+/*Fin de Menù lateral*/
+/* VideoReproductor */
+.video-reproductor {
+	position: absolute;
+	top: 110px;
+	left: 60px;
+}
